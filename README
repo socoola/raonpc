@@ -1,0 +1,5 @@
+0. sudo apt-get install zlib1g-dev
+1. cd libnvram_new
+2. sudo make
+3. cd ../nvram/
+4. sudo make install

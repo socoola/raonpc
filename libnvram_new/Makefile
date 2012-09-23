@@ -60,6 +60,7 @@ $(LIBNVRAM) ar-target: $(OBJS)
 	$(INSTALL) -m 644 $(LIBNVRAM) $(TOPDIR)lib
 	$(INSTALL) -d /usr/lib
 	$(INSTALL) -m 644 $(LIBNVRAM) /usr/lib
+	cp nvram.h /usr/include/
 
 $(OBJS): $(HEADERS) Makefile
 
